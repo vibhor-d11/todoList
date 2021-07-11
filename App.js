@@ -5,6 +5,7 @@ import {
   StyleSheet,
   Text,
   View,
+
   FlatList,
   Switch,
   Alert,
@@ -41,7 +42,6 @@ setCt(0);
 
 },[ct]
 );
- 
 const addGoal = function(par)
 {
   setGoals( goals => [ {key : cnt, value :par, mod : false}, ...goals]);
